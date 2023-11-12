@@ -1,0 +1,68 @@
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* menu topo */
+.top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.top-menu .logo {
+  width: 90px;
+}
+/*texto lado a lado*/
+.top-menu ul {
+  display: flex;
+}
+/*espaço texto*/
+.top-menu ul li {
+  padding: 0 10px;
+}
+
+/*sublinha link*/
+.top-menu ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.descricao{
+	background-color: white;
+	width:300px;
+	text-align:center;
+	font-family: monospace;
+}
+
+/*botao compre agora*/
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: white;
+  font-size: 15px;;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
