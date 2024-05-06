@@ -1,0 +1,64 @@
+<!--Css define estilos pro nosso html-->
+
+<!--style é o elemento de css dentro do código-->
+<style> 
+  .subscribe-button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .join-button{
+    background-color: white;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    color: lightblue;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .tweet-button{
+    background-color: rgb(115, 115, 243);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+</style>
+
+
+<!--'button{}' é o select do css para definir qual elementos são target-->
+<!--'background-color:' é a propiedade do css, define o que estamos mudando no select css-->
+<!--'red;' é o css value, o valor que estamos mudando-->
+<!--'.subscribe-button: ' é um select css de uma class, definido pelo "."-->
+
+<!--PROPRIEDADES CSS USADAS-->
+<!--'color:' muda a cor do texto-->
+<!--'border: none; ' tira a borda-->
+<!--'height:' muda a altura -->
+<!--'50px;' medir em pixels-->
+<!--'width: 'muda a largura-->
+<!--'border-radius: ' arredonda a borda-->
+<!--'cursor: pointer;' quando passar o mouse por cima, ele muda o cursor-->
+<!--'border-color: ' muda a cor da borda-->
+<!--'border-style: solid; ' muda o estilo da borda, nesse caso, fica com o estilo solid-->
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+
+<!--'class=" " ' define um rotulo para o elemento-->
